@@ -113,6 +113,12 @@
   height: 80%;
   padding-left: 40px;
   padding-right: 30px;
+  cursor: pointer;
+}
+
+.cart:hover {
+  cursor: pointer;
+  background-color: #2c6b3d;
 }
 
 #carts {
@@ -134,4 +140,10 @@
   display: inline-block;
   padding-bottom: 20px;
   color: white;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
 }
